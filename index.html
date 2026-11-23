@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="A responsive, accessible event finder for CampusLife students."
+    />
+    <title>CampusLife Events</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="header-inner">
+        <a class="brand" href="#" aria-label="CampusLife Events home">
+          <span class="brand-mark" aria-hidden="true">C</span>
+          <span>CampusLife</span>
+        </a>
+      </div>
+    </header>
+
+    <main class="page-shell">
+      <section class="intro" aria-labelledby="page-title">
+        <p class="eyebrow">Campus calendar</p>
+        <h1 id="page-title">Find your next event</h1>
+        <p class="intro-copy">Explore what is happening around campus this week.</p>
+      </section>
+
+      <section class="event-browser" aria-labelledby="filter-heading">
+        <h2 id="filter-heading" class="sr-only">Filter events</h2>
+
+        <form id="filter-form" class="filters" aria-label="Event filters">
+          <div class="filter-control">
+            <label for="category">Category</label>
+            <select id="category" name="category">
+              <option value="all">All categories</option>
+              <option value="Arts">Arts</option>
+              <option value="Career">Career</option>
+              <option value="Clubs">Clubs</option>
+              <option value="Sports">Sports</option>
+              <option value="Wellness">Wellness</option>
+            </select>
+          </div>
+
+          <div class="filter-control">
+            <label for="day">Day</label>
+            <select id="day" name="day">
+              <option value="all">All days</option>
+              <option value="Monday">Monday</option>
+              <option value="Tuesday">Tuesday</option>
+              <option value="Wednesday">Wednesday</option>
+              <option value="Thursday">Thursday</option>
+              <option value="Friday">Friday</option>
+            </select>
+          </div>
+
+          <button id="reset-button" class="reset-button" type="button" hidden>
+            Reset filters
+          </button>
+        </form>
+
+        <div class="results-heading">
+          <p id="result-count" role="status" aria-live="polite" aria-atomic="true">
+            Loading events…
+          </p>
+        </div>
+
+        <div id="event-list" class="event-list" aria-label="Events"></div>
+
+        <div id="empty-state" class="empty-state" hidden>
+          <div class="empty-icon" aria-hidden="true">
+            <svg viewBox="0 0 48 48" role="img">
+              <circle cx="24" cy="24" r="20"></circle>
+              <path d="M16 20h16M16 27h10"></path>
+              <path d="m31 30 6 6"></path>
+            </svg>
+          </div>
+          <h3>No events match</h3>
+          <p>Try a different category or day.</p>
+          <button id="empty-reset-button" class="primary-button" type="button">
+            Clear all filters
+          </button>
+        </div>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,98 @@
+[
+  {
+    "title": "Student Art Showcase",
+    "category": "Arts",
+    "day": "Monday",
+    "time": "5:30 PM",
+    "dateTime": "2026-11-24T17:30",
+    "location": "Gallery Hall"
+  },
+  {
+    "title": "Resume & Interview Lab",
+    "category": "Career",
+    "day": "Monday",
+    "time": "2:00 PM",
+    "dateTime": "2026-11-24T14:00",
+    "location": "Career Center"
+  },
+  {
+    "title": "Chess Club Meetup",
+    "category": "Clubs",
+    "day": "Tuesday",
+    "time": "6:00 PM",
+    "dateTime": "2026-11-25T18:00",
+    "location": "Student Union"
+  },
+  {
+    "title": "Open Mic Night",
+    "category": "Arts",
+    "day": "Tuesday",
+    "time": "7:30 PM",
+    "dateTime": "2026-11-25T19:30",
+    "location": "The Black Box"
+  },
+  {
+    "title": "Intramural Soccer",
+    "category": "Sports",
+    "day": "Wednesday",
+    "time": "4:30 PM",
+    "dateTime": "2026-11-26T16:30",
+    "location": "Recreation Field"
+  },
+  {
+    "title": "Study Abroad Q&A",
+    "category": "Career",
+    "day": "Wednesday",
+    "time": "12:30 PM",
+    "dateTime": "2026-11-26T12:30",
+    "location": "International Center"
+  },
+  {
+    "title": "Mindfulness Break",
+    "category": "Wellness",
+    "day": "Thursday",
+    "time": "11:00 AM",
+    "dateTime": "2026-11-27T11:00",
+    "location": "Wellness Lounge"
+  },
+  {
+    "title": "Robotics Team Demo",
+    "category": "Clubs",
+    "day": "Thursday",
+    "time": "3:00 PM",
+    "dateTime": "2026-11-27T15:00",
+    "location": "Engineering Lab"
+  },
+  {
+    "title": "Campus 5K",
+    "category": "Sports",
+    "day": "Friday",
+    "time": "8:30 AM",
+    "dateTime": "2026-11-28T08:30",
+    "location": "Campus Quad"
+  },
+  {
+    "title": "Photography Walk",
+    "category": "Arts",
+    "day": "Friday",
+    "time": "4:00 PM",
+    "dateTime": "2026-11-28T16:00",
+    "location": "Meet at Library Steps"
+  },
+  {
+    "title": "First-Gen Students Mixer",
+    "category": "Clubs",
+    "day": "Friday",
+    "time": "5:30 PM",
+    "dateTime": "2026-11-28T17:30",
+    "location": "Community Room"
+  },
+  {
+    "title": "Yoga in the Quad",
+    "category": "Wellness",
+    "day": "Wednesday",
+    "time": "9:00 AM",
+    "dateTime": "2026-11-26T09:00",
+    "location": "Main Quad"
+  }
+]
